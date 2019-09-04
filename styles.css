@@ -1,0 +1,95 @@
+body{
+    background-image: url(utah.jpg);
+    background-size: cover;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+
+.menu-right, .menu-left{
+    width: 48%;
+    display: inline-block;
+}
+
+.menu-left{
+    font-size: 30px;
+}
+
+.menu-right{
+    font-size: 16px;
+}
+
+ul{
+    display: flex;
+    padding-left: 70%;
+}
+ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+input,button:focus{
+   outline: none;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    padding: 15px;
+    width: 400px;
+    padding-left: 90px;
+    color: white;
+    font-size: 19px;
+}
+
+::placeholder{                  
+    color: white;
+    font-size: 19px;
+}
+
+.center{
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+button{
+    width: 400px;
+    background-color: rgb(52, 71, 95);
+    margin-top: 80px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    color: rgba(197, 193, 193, 0.884);
+    opacity: 0.8;
+}
+
+.img0{
+    height: 20px;
+    position: absolute;
+    margin-left: 120px;
+}
+
+.img1, .img2{
+    height: 20px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.container{
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(58, 76, 99);
+    width: 100%;
+    height: 100px;
+    opacity: 0.8;
+    line-height: 200%;
+} 
